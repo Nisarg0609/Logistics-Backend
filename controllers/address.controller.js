@@ -1,6 +1,6 @@
 import Address from "../models/address.model.js";
 import City from "../models/city.model.js";
-import AppError from "../utils/AppError.js";
+import AppError from "../utils/appError.js";
 import catchAsync from "../utils/catchAsync.js";
 import { filterObject } from "../utils/helper.js";
 import { createOne, getById, getByIdAndUpdate, getMany } from "./factoryHandler.js";
