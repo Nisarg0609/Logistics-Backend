@@ -1,11 +1,11 @@
 {
-  "name": "server",
+  "name": "index",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development nodemon server.js",
-    "start:prod": "cross-env NODE_ENV=production nodemon server.js",
+    "start": "cross-env NODE_ENV=development nodemon index.js",
+    "start:prod": "cross-env NODE_ENV=production nodemon index.js",
     "build": "react-scripts build"
   },
   "type": "module",
