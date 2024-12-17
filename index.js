@@ -9,7 +9,7 @@ process.on("uncaughtException", (err) => {
 });
 
 // Database connection
-mongoose.connect(process.env.DATABASE_CONNECTION_LOCAL).then(() => {
+mongoose.connect(process.env.DATABASE_CONNECTION).then(() => {
   console.log("Successfully connected to the database.");
 });
 
